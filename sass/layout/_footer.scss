@@ -1,0 +1,32 @@
+.footer{
+    width: 100%;
+   
+    &-container{
+        //border:1px solid red;
+        margin-bottom: 20px;
+        
+    }
+
+    &__content{
+        width: 226px;
+        margin:auto;
+        
+    }
+
+    &__icon-block{
+        margin-bottom: 26px;
+        padding-left:25px;
+    }
+    
+    &__icon:not(:first-child){
+        margin-left: 35px;
+    }
+    &__icon{
+        
+    }
+    &__autor{
+        font-size: 14px;
+      
+        color: #21243D;
+    }
+}

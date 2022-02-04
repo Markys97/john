@@ -1,0 +1,49 @@
+.presentation{
+    width: 100%;
+    height: auto;
+    background: white;
+    &-container{
+        display: flex;
+        justify-content: space-between;
+        @media screen and (max-width:768px) {
+            flex-direction: column-reverse;
+            align-items: center;
+            row-gap: 34px;
+        }
+        
+    }
+    &__left{
+        max-width: 506px;
+      
+        //border:1px solid rgb(39, 36, 36);
+       
+        
+    }
+    &__title{
+        margin-bottom: 40px;
+       
+    }
+    &__text{
+        width: 100%;
+        margin-bottom: 38px;
+        @media screen and (max-width:484px) {
+           text-align: center;
+        }
+    }
+    &__button{
+        margin-bottom: 47px;
+        @media screen and (max-width:484px) {
+           margin:auto;
+           margin-bottom: 40px;
+         }
+    }
+
+    &__right{
+        max-width: 243px;
+        height: auto;
+       // border:1px solid red;
+    }
+    &__img{
+        max-width: 100%;
+    }
+}
